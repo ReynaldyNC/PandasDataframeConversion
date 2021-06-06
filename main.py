@@ -4,4 +4,4 @@ import pandas as pd
 data = pd.read_csv('data/california_housing_train.csv')
 
 # Show first five row of dataset
-data.head()
+print(data.head())
